@@ -84,6 +84,11 @@ export default function Navbar() {
                       Rutina de Calistenia
                     </Link>
                   </li>
+                  <li>
+                    <Link className="text-base-content" to="/muaythai">
+                      Rutina de MuayThai
+                    </Link>
+                  </li>
                   {/* más items aquí */}
                 </motion.ul>
               )}

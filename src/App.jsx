@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import PlanViewer from "./PlanViewer";
 import Calisthenics from "./Calisthenics";
 import WeightLog from "./WeightLog";
+import MuayThai from "./MuayThai";
 
 export default function App(){
   return (
@@ -13,6 +14,7 @@ export default function App(){
         <Route path="/" element={<PlanViewer />} />
         <Route path="/calisthenics" element={<Calisthenics />} />
         <Route path="/peso" element={<WeightLog />} />
+        <Route path="/muaythai" element={<MuayThai />} />
       </Routes>
     </div>
   );
