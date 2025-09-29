@@ -93,7 +93,7 @@ export default function PlanViewer() {
         <section className="grid md:grid-cols-2 gap-4">
           <article className={cardHover}>
             <div className="card-body">
-              <h2 className="card-title">1) Resumen de objetivos</h2>
+              <h2 className="card-title">Resumen de objetivos</h2>
               <p className="opacity-80">Macronutrientes para ganar músculo sin acumular mucha grasa:</p>
 
               <div className="grid grid-cols-3 gap-2 mt-3">
@@ -140,7 +140,7 @@ export default function PlanViewer() {
         <section className={cardHover}>
           <div className="card-body space-y-3">
             <div className="flex items-center justify-between flex-wrap gap-2">
-              <h2 className="card-title">2) Lista de compras + precios (≤ $2,000 MXN)</h2>
+              <h2 className="card-title">Lista de compras + precios (≤ $2,000 MXN)</h2>
               <span className="badge badge-outline badge-success">
                 Total estimado: ${total} MXN
               </span>
@@ -159,7 +159,7 @@ export default function PlanViewer() {
         <section className={cardHover}>
           <div className="card-body space-y-3">
             <div className="flex items-center justify-between flex-wrap gap-2">
-              <h2 className="card-title">3) Plan alimenticio diario (≈ 2,700 kcal)</h2>
+              <h2 className="card-title">Plan alimenticio diario (≈ 2,700 kcal)</h2>
               <span className="badge badge-outline badge-warning">Ajusta por apetito/entreno</span>
             </div>
 
@@ -176,7 +176,7 @@ export default function PlanViewer() {
         <section className={cardHover}>
           <div className="card-body space-y-3">
             <div className="flex items-center justify-between flex-wrap gap-2">
-              <h2 className="card-title">4) Snack 3 — Rotación sin lácteos</h2>
+              <h2 className="card-title">Snack 3 — Rotación sin lácteos</h2>
               <span className="badge badge-outline badge-success">200–250 kcal</span>
             </div>
 
@@ -195,7 +195,7 @@ export default function PlanViewer() {
         <section className="grid md:grid-cols-2 gap-4">
           <article className={cardHover}>
             <div className="card-body">
-              <h2 className="card-title">5) Horarios y flexibilidad</h2>
+              <h2 className="card-title">Horarios y flexibilidad</h2>
               <ul className="space-y-2">
                 {[
                   <><b>Entreno madrugada:</b> Snack ligero (fruta + 1 tostada/avena), entreno, luego Desayuno completo.</>,
@@ -215,7 +215,7 @@ export default function PlanViewer() {
 
           <article className={cardHover}>
             <div className="card-body">
-              <h2 className="card-title">6) Seguimiento</h2>
+              <h2 className="card-title"> Seguimiento</h2>
               <ul className="space-y-2">
                 {[
                   "Pésate 1–2 veces por semana (misma hora, mismas condiciones).",
